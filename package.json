@@ -1,0 +1,27 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chilkat/ck-node10-linux64": "^9.50.88",
+    "@google-cloud/translate": "^6.3.1",
+    "aws-sdk": "^2.1010.0",
+    "bing-translate-api": "^2.2.1",
+    "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "compression": "^1.7.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.11",
+    "morgan": "^1.10.0",
+    "ws": "^8.2.3"
+  }
+}
